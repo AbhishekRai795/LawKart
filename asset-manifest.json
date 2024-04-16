@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/LawKart/static/css/main.c86d4ba8.css",
+    "main.js": "/LawKart/static/js/main.6ef99509.js",
+    "static/js/453.ed3810f9.chunk.js": "/LawKart/static/js/453.ed3810f9.chunk.js",
+    "static/media/image.png": "/LawKart/static/media/image.a2571df79547a9bdf8d3.png",
+    "static/media/weighing-scale.png": "/LawKart/static/media/weighing-scale.47fdf7654dd99e7a0b8b.png",
+    "index.html": "/LawKart/index.html",
+    "main.c86d4ba8.css.map": "/LawKart/static/css/main.c86d4ba8.css.map",
+    "main.6ef99509.js.map": "/LawKart/static/js/main.6ef99509.js.map",
+    "453.ed3810f9.chunk.js.map": "/LawKart/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c86d4ba8.css",
+    "static/js/main.6ef99509.js"
+  ]
+}
