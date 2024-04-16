@@ -1,0 +1,176 @@
+.justify-center-x-1{
+    display: flex;
+    justify-content: center;
+    border: 10px solid black;
+    border-radius: 30px;
+}
+.justify-center-y-1{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 6.5%; 
+    bottom: 6.5%; 
+    left: 2.5%; 
+    right: 2.5%; 
+    width: 95%;
+    height: 85%; 
+    
+  
+}
+
+.lkli{
+    font-size:xx-large;
+    font-weight: 700;
+    text-align: center;
+    color: #5b3701;
+    margin-top: 20px;
+    padding-top:50px;
+    
+}
+
+.full-page{
+    display: flex;
+    width: 100%;
+
+}
+
+/* .page-bg{
+    border: 1px solid black;
+    width: 50%;
+    
+    padding-bottom: 780px;
+    background-color: #00224D;
+} */
+
+.login-container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid darkblue; */
+    background-color: white;
+    position: relative;
+    height: 100%;
+    border-top-left-radius: 23px; /* Adjust as needed */
+    border-bottom-left-radius: 23px; /* Adjust as needed */
+}
+
+
+.username-s {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+.lableUser{
+    padding-right: 10px;
+    color: #965b02;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.input-feild{
+    border: 0.5px solid grey;
+    border-radius: 6px;
+    border: 1px solid #5b3701;
+    width: 300px;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+.lablepwd{
+    padding-right: 15px;
+    color: #965b02;
+    font-weight: bold;
+    padding-bottom: 5px;
+
+}
+
+.btn-log-in{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.btn-log-in-design{
+    border: 0;
+    border-radius: 0;
+    padding: 5px 100px;
+    background-color: #FFAF45;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+
+}
+
+.btn-log-in-design:hover{
+    background-color: transparent;
+
+}
+
+.btn-log-in-design:active{
+    background-color:#965b02;
+}
+
+.fpnn{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+
+ 
+.dark-image{
+    display: flex;
+    background-color: #001938;
+    position: relative;
+    height: 100%;
+    border-top-right-radius: 19px; /* Adjust as needed */
+    border-bottom-right-radius: 19px; /* Adjust as needed */
+  
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: #001938;
+    border-top-right-radius: 25px; /* Adjust as needed */
+    border-bottom-right-radius: 25px;
+}
+
+.body-style{
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #01285c 0%,
+        #002b62 30%,
+
+        #011a3b 50%,
+        #FFAF45 50%,
+        #fcb75e 100%
+        /* #8a4f02 100% */
+    )
+}
+
+.email-id{
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    
+}
+
+.lable-email{
+    color: #965b02;
+    font-weight: bold;
+    margin-right: 24px;
+    padding-bottom: 5px;
+
+}

@@ -1,0 +1,100 @@
+.justify-center-x{
+    display: flex;
+    justify-content: center;
+}
+
+.container-design{
+    text-align: center;
+}
+
+.dot-lawkart-design{
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+}
+
+.empower-quote-design{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.empower-font-size{
+    display: inline;
+    font-size: 80px;
+}
+
+.yourcase-design{
+    display: inline;
+    font-size: 50px;
+}
+
+.paragraph-design{
+    display: block;
+    font-style: italic;
+    font-size: large;
+    margin-top: 55px;
+}
+
+.btn-hier-now{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.btn-hier-now-design{
+    border: 0px;
+    border-radius: 0px;
+    background-color: rgb(53, 51, 51);
+    color: white;
+    transition: background-color 0.2s ease-in-out;
+    padding:10px 20px;
+    text-decoration: none;
+}
+
+.btn-hier-now-design:hover{
+    
+    background-color: #FFAF45;
+    color: rgb(1, 39, 1);
+    /* font-weight: 500; */
+
+}
+
+.btn-hier-now-design:active{
+    transition: background-color 0.1s ease-in-out;
+    background-color: transparent;
+    color: black;
+}
+
+.animation{
+    animation: appear ease-in-out;
+    animation-timeline: view();
+    
+}
+
+@keyframes appear {
+   
+    from  {
+         opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    0% {
+        opacity: 0;
+    }
+
+    40%{
+        opacity:1;
+    }
+    
+
+  
+
+
+    
+}

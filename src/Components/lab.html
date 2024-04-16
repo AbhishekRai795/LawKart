@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html ng-app="tableApp">
+
+<head>
+    <title>AngularJS Table</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <style>
+        .even {
+            background-color: #f2f2f2;
+        }
+
+        .odd {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div ng-controller="TableController">
+        <h1>AngularJS Table</h1>
+
+        <p>Display Table:</p>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="person in people" ng-class="{ 'even': $even, 'odd': $odd }">
+                    <td>{{$index + 1}}</td>
+                    <td>{{person.name}}</td>
+                    <td>{{person.age}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Order by Filter:</p>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="person in people | orderBy: 'name'">
+                    <td>{{$index + 1}}</td>
+                    <td>{{person.name}}</td>
+                    <td>{{person.age}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        angular.module('tableApp', [])
+            .controller('TableController', function ($scope) {
+                $scope.people = [
+                    { name: 'John', age: 30 },
+                    { name: 'Alice', age: 25 },
+                    { name: 'Bob', age: 35 },
+                    { name: 'Carol', age: 40 }
+                ];
+            });
+    </script>
+</body>
+
+</html>

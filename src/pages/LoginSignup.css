@@ -1,0 +1,157 @@
+.justify-center-x-L{
+    display: flex;
+    justify-content: center;
+    /* border:  solid black; */
+    border-radius: 15px;
+    box-shadow: -3px -3px 10px #523001 ;
+}
+.justify-center-y-L{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 6.5%; 
+    left: 2.5%; 
+    right: 2.5%; 
+    width: 95%;
+    height: 85%;
+  
+}
+
+.lkli{
+    font-size:xx-large;
+    font-weight: 700;
+    text-align: center;
+    color: #5b3701;
+    
+}
+
+.full-page{
+    display: flex;
+    width: 100%;
+
+}
+
+/* .page-bg{
+    border: 1px solid black;
+    width: 50%;
+    
+    padding-bottom: 780px;
+    background-color: #00224D;
+} */
+
+.login-container-L{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid darkblue; */
+    background-color: white;
+    position: relative;
+    height: 100%;
+    border-top-left-radius: 8px; /* Adjust as needed */
+    border-bottom-left-radius: 8px; /* Adjust as needed */
+}
+
+
+.username{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.lableUser{
+    padding-right: 10px;
+    color: #965b02;
+    font-weight: bold;
+}
+
+.input-feild{
+    border: 0.5px solid grey;
+    border-radius: 6px;
+}
+
+.password{
+    display: flex;
+    padding: 10px;
+    /* margin-top: 40px; */
+}
+
+.lablepwd{
+    padding-right: 15px;
+    color: #965b02;
+    font-weight: bold;
+}
+
+.btn-log-in{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.btn-log-in-design{
+    border: 0;
+    border-radius: 0;
+    padding: 10px 20px;
+    background-color: #FFAF45;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn-log-in-design:hover{
+    background-color: transparent;
+
+}
+
+.btn-log-in-design:active{
+    background-color:#965b02;
+}
+
+.fpnn{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+
+ 
+.dark-image-L{
+    display: flex;
+    background-color: #001025;
+
+    
+    position: relative;
+    height: 100%;
+    padding-top: 2px;
+    border-top-right-radius: 8px; /* Adjust as needed */
+    border-bottom-right-radius: 8px; /* Adjust as needed */
+  
+}
+
+.image-L{
+    width: 100%;
+    height: 100%;
+    background-color: #001025;
+    object-fit: contain;
+    
+    border-top-right-radius: 4px; /* Adjust as needed */
+    border-bottom-right-radius: 4px;
+   
+}
+
+.body-style-L{
+    height: 100vh;
+    background: linear-gradient(
+        to top left,
+        #00224D 0%,
+        #011b3c 30%,
+
+        #001025 50%,
+        #fb940c 50%,
+        #f49f30 70%,
+        #f5b96a 100%
+        /* #8a4f02 100% */
+    )
+
+   
+}
